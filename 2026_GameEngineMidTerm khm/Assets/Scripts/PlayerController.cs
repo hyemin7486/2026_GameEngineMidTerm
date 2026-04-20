@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
 
     private bool isGiant = false;
+
     private float moveInput;
 
     void Awake()
@@ -48,7 +49,7 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
 
 
-            isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, .2f, groundLayer);
     }
     
     public void OnMove(InputValue value)

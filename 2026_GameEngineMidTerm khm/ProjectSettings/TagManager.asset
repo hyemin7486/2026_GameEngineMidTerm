@@ -5,9 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Boundary
-  - 'Enemy '
   - Obstacle
   - Item
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -42,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 740083361
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
