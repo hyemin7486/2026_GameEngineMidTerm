@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5e916f4211fe76741861ac380d46e7a1
+guid: 5caafac1faa42fd46b4e57b720c7d068
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7660314071127931382
-    second: towerSmall_0
+      213: -2580906283096077004
+    second: 1c28ece6-3d34-47da-b5e5-7bb6f490f772_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: towerSmall_0
+      name: 1c28ece6-3d34-47da-b5e5-7bb6f490f772_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 74
-        height: 180
+        width: 1402
+        height: 1122
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f9b185cf07ee4a60800000000000000
-      internalID: 7660314071127931382
+      spriteID: 43d0c75e867ce2cd0800000000000000
+      internalID: -2580906283096077004
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 71a17874be816694e97080a86438795b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      towerSmall_0: 7660314071127931382
+      1c28ece6-3d34-47da-b5e5-7bb6f490f772_0: -2580906283096077004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

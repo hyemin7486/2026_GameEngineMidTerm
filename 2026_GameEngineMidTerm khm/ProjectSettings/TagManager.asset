@@ -8,6 +8,10 @@ TagManager:
   - Obstacle
   - Item
   - Enemy
+  - SpeedItem
+  - JumpItem
+  - AttackItem
+  - Boss
   layers:
   - Default
   - TransparentFX

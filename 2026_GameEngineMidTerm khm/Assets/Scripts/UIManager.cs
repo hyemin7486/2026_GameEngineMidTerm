@@ -22,4 +22,14 @@ public class UIManager : MonoBehaviour
     {
         HelpPanel.SetActive(false);
     }
+
+    public void ExitGame()
+    {
+         print("Exit Game");
+     #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+     #else
+      Application.Quit();
+     #endif
+    }
 }
