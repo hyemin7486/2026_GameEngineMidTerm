@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public GameObject HelpPanel;
+    public GameObject ScorePanel;
     public void GameStartButtonAction()
     {
         SceneManager.LoadScene("Level_1");
@@ -21,6 +22,15 @@ public class UIManager : MonoBehaviour
     public void CloseHelpPanel()
     {
         HelpPanel.SetActive(false);
+    }
+    public void OpenScorePanel()
+    {
+        ScorePanel.SetActive(true);
+    }
+
+    public void CloseScorePanel()
+    {
+        ScorePanel.SetActive(false);
     }
 
     public void ExitGame()
