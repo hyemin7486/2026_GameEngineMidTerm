@@ -1271,6 +1271,7 @@ GameObject:
   - component: {fileID: 787899459}
   - component: {fileID: 787899458}
   - component: {fileID: 787899457}
+  - component: {fileID: 787899460}
   m_Layer: 0
   m_Name: Item
   m_TagString: Item
@@ -1398,6 +1399,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &787899460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787899456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de114f5bc0745543999c90fe32961b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: 361bd86b242f3a34ea7ed86b567d4ca8, type: 2}
 --- !u!1 &1171531703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,6 +1930,7 @@ GameObject:
   - component: {fileID: 1587944108}
   - component: {fileID: 1587944107}
   - component: {fileID: 1587944106}
+  - component: {fileID: 1587944109}
   m_Layer: 0
   m_Name: Item (1)
   m_TagString: Item
@@ -2043,6 +2058,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1587944109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587944105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de114f5bc0745543999c90fe32961b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: 361bd86b242f3a34ea7ed86b567d4ca8, type: 2}
 --- !u!1 &1613041343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,6 +2082,7 @@ GameObject:
   - component: {fileID: 1613041346}
   - component: {fileID: 1613041345}
   - component: {fileID: 1613041344}
+  - component: {fileID: 1613041347}
   m_Layer: 0
   m_Name: JumpItem
   m_TagString: JumpItem
@@ -2181,6 +2210,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1613041347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613041343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de114f5bc0745543999c90fe32961b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: b8ff51b777fa1ee48a1efc48737b7268, type: 2}
 --- !u!1 &1737359338
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,6 +2234,7 @@ GameObject:
   - component: {fileID: 1737359341}
   - component: {fileID: 1737359340}
   - component: {fileID: 1737359339}
+  - component: {fileID: 1737359342}
   m_Layer: 0
   m_Name: SpeedItem
   m_TagString: SpeedItem
@@ -2309,6 +2352,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1737359342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737359338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de114f5bc0745543999c90fe32961b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: 2cf125e884227b149904b7ca644f40ac, type: 2}
 --- !u!1 &1831521825
 GameObject:
   m_ObjectHideFlags: 0
