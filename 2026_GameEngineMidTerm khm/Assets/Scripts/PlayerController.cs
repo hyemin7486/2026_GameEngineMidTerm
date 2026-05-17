@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -29,13 +30,16 @@ public class PlayerController : MonoBehaviour
 
     private float moveInput;
 
-    void Awake()
+    float score;
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         pAni = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         originalSpeed = moveSpeed;
         originalJumpForce = jumpForce;
+        score = 0f;
     }
 
     // Update is called once per frame
@@ -105,6 +109,10 @@ public class PlayerController : MonoBehaviour
 
         if (collision.CompareTag("Finish"))
         {
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)score);
+
+            //HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)score);
+
             collision.GetComponent<LevelObject>().MoveToNextLevel();
         }
 
@@ -125,6 +133,8 @@ public class PlayerController : MonoBehaviour
             Invoke(nameof(ResetGiant), 3f);
 
             Destroy(collision.gameObject);
+
+            score += 10f;
         }
         if (collision.CompareTag("SpeedItem"))
         {
